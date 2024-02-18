@@ -1,5 +1,5 @@
 {
-  "name": "asif-learning-organization/rollup-git",
+  "name": "asifOrg1/rollup-git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/asif-learning-organization/rollup-git",
+    "url": "https://github.com/asifOrg1/rollup-git",
     "directory": "dist"
   },
   "keywords": [],
