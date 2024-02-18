@@ -1,0 +1,21 @@
+{
+  "name": "rollup-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "publish": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "release-it": "^17.1.0",
+    "rollup": "^4.12.0"
+  }
+}

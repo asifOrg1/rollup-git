@@ -1,0 +1,14 @@
+{
+  "git": {
+    "tagName": "v${version}",
+    "commitMessage": "chore(release): ${version}",
+    "requireCleanWorkingDir": true,
+    "requireUpstream": false
+  },
+  "github": {
+    "release": true,
+    "releaseName": "${version}",
+    "draft": false,
+    "tokenRef": "GH_TOKEN"
+  }
+}
