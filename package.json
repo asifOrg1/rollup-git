@@ -1,5 +1,5 @@
 {
-  "name": "rollup-git",
+  "name": "asif-learning-organization/rollup-git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --bundleConfigAsCjs",
-    "publish": "release-it"
+    "release": "release-it --node"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asif-learning-organization/rollup-git",
+    "directory": "dist"
   },
   "keywords": [],
   "author": "",

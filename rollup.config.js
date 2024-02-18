@@ -8,5 +8,10 @@ export default {
     format: 'umd',
     name: 'MyPackage'
   },
-  plugins: [resolve(), commonjs()]
+  plugins: [
+    resolve({
+      preferBuiltins: true
+    }),
+    commonjs()
+  ]
 };
