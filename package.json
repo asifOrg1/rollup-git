@@ -1,6 +1,6 @@
 {
-  "name": "@asifOrgGithub/rollup-git",
-  "version": "1.0.1",
+  "name": "@asiforggithub/rollup-git",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/asifOrgGithub/rollup-git",
+    "url": "https://github.com/asiforggithub/rollup-git",
     "directory": "dist"
   },
   "keywords": [],
