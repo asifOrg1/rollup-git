@@ -5,8 +5,10 @@ export default {
   input: 'src/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'umd',
-    name: 'MyPackage'
+    format: 'esm',
+    name: 'MyPackage',
+    exports: 'default',
+    sourcemap: true
   },
   plugins: [
     resolve({

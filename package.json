@@ -1,13 +1,19 @@
 {
   "name": "@asiforggithub/rollup-git",
-  "version": "1.0.2",
+  "version": "1.0.14",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --bundleConfigAsCjs",
-    "release": "release-it --node"
+    "release": "release-it --node",
+    "start": "node src/index.js",
+    "start:bundle": "node dist/bundle.js",
+    "analyze": "source-map-explorer 'dist/bundle.js'"
   },
   "repository": {
     "type": "git",
@@ -20,6 +26,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "source-map-explorer": "2.5.3",
     "release-it": "^17.1.0",
     "rollup": "^4.12.0"
   }

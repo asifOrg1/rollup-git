@@ -1,14 +1,16 @@
 {
   "git": {
-    "tagName": "v${version}",
-    "commitMessage": "chore(release): ${version}",
-    "requireCleanWorkingDir": true,
-    "requireUpstream": false
+    "tagName": "v${version}"
   },
   "github": {
-    "release": true,
-    "releaseName": "${version}",
-    "draft": false,
-    "tokenRef": "GH_TOKEN"
+    "release": true
+  },
+  "plugins": {
+    "@release-it/npm": {
+      "tarballDir": "dist",
+      "access": "public",
+      "authMethod": "token",
+      "tokenRef": "GITHUB_PACKAGES_TOKEN"
+    }
   }
 }
